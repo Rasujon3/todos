@@ -1,0 +1,19 @@
+.todos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.total {
+  text-align: center;
+}
+@media (max-width: 950px) {
+  .todos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 800px) {
+  .todos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
